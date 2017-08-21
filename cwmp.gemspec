@@ -1,4 +1,5 @@
 require './lib/cwmp/version'
+require 'date'
 
 Gem::Specification.new do |spec|
     spec.name         = 'cwmp'
@@ -19,4 +20,5 @@ Gem::Specification.new do |spec|
     spec.add_dependency('http_router', '~> 0.11', '>= 0.11.1')
     spec.add_dependency('httpclient', '~> 2.4', '>= 2.4.0')
     spec.add_dependency('rake', '~> 0.9', '>= 0.9.2')
+    spec.add_dependency('xmpp4r', '~> 0.5', '>= 0.5.6')
 end
